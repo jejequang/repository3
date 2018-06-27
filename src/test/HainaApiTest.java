@@ -10,8 +10,7 @@ import net.sf.json.JSONObject;
 
 public class HainaApiTest {
 	public static void main(String[] args) throws Exception{
-	
-		
+//s		
 		//µÇÂ½
 		MerchantServer ms = new MerchantServer();			
 	    String login_result=ms.login("newunion","newunion","LoginApi","3001028");			
