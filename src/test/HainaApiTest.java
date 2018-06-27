@@ -12,7 +12,7 @@ public class HainaApiTest {
 	public static void main(String[] args) throws Exception{
 //s		yu
 		//µÇÂ½
-		MerchantServer ms = new MerchantServer();			
+		MerchantServer ms = new MerchantServer();if(2==3){System.out.println("==");}		
 	    String login_result=ms.login("newunion","newunion","LoginApi","3001028");			
 	    JSONObject json=JSONObject.fromObject(login_result);			
 	    String tokenid=json.getString("tokenid");
